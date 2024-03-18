@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 // import './App.css'
  import { BrowserRouter as Router,Routes, Route } from 'react-router-dom'
 
@@ -6,6 +7,11 @@ import Footer  from "./components/Footer";
 import Food  from "./components/Food";
 import Card from './components/Card';
 
+=======
+import './App.css'
+import ButtonApp from './components/ButtonApp';
+import Welcome from './components/student/Welcome';
+>>>>>>> Stashed changes
 
 
 
@@ -52,6 +58,11 @@ function App() {
 
 
        <Footer /> 
+      </div>
+      <div> 
+        <Welcome />
+
+        <ButtonApp/>
       </div>
      
     </>
